@@ -1,0 +1,72 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "translation-ta",
+  "dataset_name": "xcopa",
+  "dataset_size": 71966,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/xcopa@042f78955ba48e6404616762fa6e05e839c3907a/translation-ta/validation-00000-of-00001.parquet": {
+      "num_bytes": 12614,
+      "checksum": null
+    },
+    "hf://datasets/xcopa@042f78955ba48e6404616762fa6e05e839c3907a/translation-ta/test-00000-of-00001.parquet": {
+      "num_bytes": 41874,
+      "checksum": null
+    }
+  },
+  "download_size": 54488,
+  "features": {
+    "premise": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choice1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choice2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "idx": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "changed": {
+      "dtype": "bool",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 126454,
+  "splits": {
+    "validation": {
+      "name": "validation",
+      "num_bytes": 12398,
+      "num_examples": 100,
+      "dataset_name": "xcopa"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 59568,
+      "num_examples": 500,
+      "dataset_name": "xcopa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

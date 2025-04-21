@@ -1,0 +1,73 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "ja",
+  "dataset_name": "paws-x",
+  "dataset_size": 16385342,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/paws-x@4cd8187c404bda33cb1f62b49b001115862acf37/ja/train-00000-of-00001.parquet": {
+      "num_bytes": 9625002,
+      "checksum": null
+    },
+    "hf://datasets/paws-x@4cd8187c404bda33cb1f62b49b001115862acf37/ja/test-00000-of-00001.parquet": {
+      "num_bytes": 409819,
+      "checksum": null
+    },
+    "hf://datasets/paws-x@4cd8187c404bda33cb1f62b49b001115862acf37/ja/validation-00000-of-00001.parquet": {
+      "num_bytes": 400890,
+      "checksum": null
+    }
+  },
+  "download_size": 10435711,
+  "features": {
+    "id": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "sentence1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentence2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "names": [
+        "0",
+        "1"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 26821053,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 15053944,
+      "num_examples": 49401,
+      "dataset_name": "paws-x"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 669128,
+      "num_examples": 2000,
+      "dataset_name": "paws-x"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 662270,
+      "num_examples": 2000,
+      "dataset_name": "paws-x"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

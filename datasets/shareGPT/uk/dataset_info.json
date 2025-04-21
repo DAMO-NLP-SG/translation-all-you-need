@@ -1,0 +1,59 @@
+{
+  "citation": "",
+  "dataset_size": 2772036516,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/zetavg/ShareGPT-Processed/resolve/9f5f6eac1e788e28d12babc03db941c2d3bfa942/data/train-00000-of-00006-2481c071d170b5bb.parquet": {
+      "num_bytes": 181217920,
+      "checksum": "353dcd54f31c69c9efa7f2b94df4b59cdb35666f8d5e34a6f79ea7f3323a64f2"
+    },
+    "https://huggingface.co/datasets/zetavg/ShareGPT-Processed/resolve/9f5f6eac1e788e28d12babc03db941c2d3bfa942/data/train-00001-of-00006-7c35409d5678a67e.parquet": {
+      "num_bytes": 176962400,
+      "checksum": "fc15bc4fc4322d77520e84c2a40f663995760135987f513ac2219a559d4d540c"
+    },
+    "https://huggingface.co/datasets/zetavg/ShareGPT-Processed/resolve/9f5f6eac1e788e28d12babc03db941c2d3bfa942/data/train-00002-of-00006-4b3b83300e6c19f5.parquet": {
+      "num_bytes": 180892884,
+      "checksum": "c4081b91bb1ca454f319e062a930c638148e63621d05742648270800aa8ba755"
+    },
+    "https://huggingface.co/datasets/zetavg/ShareGPT-Processed/resolve/9f5f6eac1e788e28d12babc03db941c2d3bfa942/data/train-00003-of-00006-d8459cff3411849b.parquet": {
+      "num_bytes": 175777208,
+      "checksum": "6371f5fcf6512609017356ede829fc72789630a90f0dfc4a733fe10e7fff1ac0"
+    },
+    "https://huggingface.co/datasets/zetavg/ShareGPT-Processed/resolve/9f5f6eac1e788e28d12babc03db941c2d3bfa942/data/train-00004-of-00006-49c30db80e5b0fd2.parquet": {
+      "num_bytes": 181370990,
+      "checksum": "321736efae1728c21ede536e2ae2969dfec8373e827c5799c7790f61e85c865c"
+    },
+    "https://huggingface.co/datasets/zetavg/ShareGPT-Processed/resolve/9f5f6eac1e788e28d12babc03db941c2d3bfa942/data/train-00005-of-00006-8f673de99964b22a.parquet": {
+      "num_bytes": 179039991,
+      "checksum": "9c24042e708b34f41a7616e378feb3a82ef29363cb02dc1e2ac1c26538a4bc17"
+    }
+  },
+  "download_size": 1075261393,
+  "features": {
+    "lang": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3847297909,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2772036516,
+      "num_examples": 90665,
+      "shard_lengths": [
+        25111,
+        20222,
+        25111,
+        20221
+      ],
+      "dataset_name": "parquet"
+    }
+  }
+}

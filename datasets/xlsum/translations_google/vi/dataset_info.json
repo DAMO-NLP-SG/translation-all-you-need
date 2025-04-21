@@ -1,0 +1,70 @@
+{
+  "builder_name": "xlsum",
+  "citation": "@inproceedings{hasan-etal-2021-xl,\n    title = \"{XL}-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages\",\n    author = \"Hasan, Tahmid  and\n      Bhattacharjee, Abhik  and\n      Islam, Md. Saiful  and\n      Mubasshir, Kazi  and\n      Li, Yuan-Fang  and\n      Kang, Yong-Bin  and\n      Rahman, M. Sohel  and\n      Shahriyar, Rifat\",\n    booktitle = \"Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021\",\n    month = aug,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.findings-acl.413\",\n    pages = \"4693--4703\",\n}\n",
+  "config_name": "vietnamese",
+  "dataset_name": "xlsum",
+  "dataset_size": 238727843,
+  "description": "We present XLSum, a comprehensive and diverse dataset comprising 1.35 million professionally \nannotated article-summary pairs from BBC, extracted using a set of carefully designed heuristics.\nThe dataset covers 45 languages ranging from low to high-resource, for many of which no\npublic dataset is currently available. XL-Sum is highly abstractive, concise, \nand of high quality, as indicated by human and intrinsic evaluation. \n",
+  "download_checksums": {
+    "https://huggingface.co/datasets/csebuetnlp/xlsum/resolve/main/data/vietnamese_XLSum_v2.0.tar.bz2": {
+      "num_bytes": 54226506,
+      "checksum": null
+    }
+  },
+  "download_size": 54226506,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "summary": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "length": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://github.com/csebuetnlp/xl-sum",
+  "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)",
+  "size_in_bytes": 292954349,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 209115167,
+      "num_examples": 32111,
+      "dataset_name": "xlsum"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 14814574,
+      "num_examples": 4013,
+      "dataset_name": "xlsum"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 14798102,
+      "num_examples": 4013,
+      "dataset_name": "xlsum"
+    }
+  },
+  "version": {
+    "version_str": "2.0.0",
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  }
+}
